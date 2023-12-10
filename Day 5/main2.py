@@ -29,8 +29,6 @@ def mapping(seed):
                 ind = l+1
                 break
         
-        d = {}
-        ranges = []
         while ind<len(lines) and lines[ind] != "\n":
             # extract
             dest, src, length = map(int, lines[ind].split())
